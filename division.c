@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int x = 9;
-    int y = 3;
-    printf("%d",x/y);
+    printf("enter the first number\n");
+    scanf("%d",&x);
+    printf("enter the second number\n\n");
+    scanf("%d",&y);
+    printf("The Division Of Two Number Is %d",x/y);
     return 0;
 }
